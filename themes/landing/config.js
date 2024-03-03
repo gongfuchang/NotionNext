@@ -1,34 +1,36 @@
 const CONFIG = {
 
-  LANDING_HEADER_BUTTON_1_TITLE: 'Github开源',
+  LANDING_HEADER_BUTTON_1_TITLE: '浏览文档',
   LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
 
   LANDING_HEADER_BUTTON_2_TITLE: '作者博客',
   LANDING_HEADER_BUTTON_2_URL: 'https://blog.tangly1024.com/',
 
   // 首页大图英雄板块
-  LANDING_HERO_TITLE_1: 'NotionNext',
-  LANDING_HERO_P_1: '快速搭建独立站、轻松放大品牌价值！',
-  LANDING_HERO_BUTTON_1_TEXT: '开始体验',
+  LANDING_HERO_TITLE_1: 'Quick Mind',
+  LANDING_HERO_P_1: '基于 RAG 的企业级知识库解决方案',
+  LANDING_HERO_P_2: '开箱即用的 SaaS / 私有化部署',
+
+  LANDING_HERO_BUTTON_1_TEXT: '免费体验',
   LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  LANDING_HERO_BUTTON_2_TEXT: '了解更多',
+  LANDING_HERO_BUTTON_2_TEXT: '了解客户案例',
   LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
-  LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
+  LANDING_HERO_VIDEO_IMAGE: '/images/rag.jpg',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
   LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
 
   // 特性介绍
-  LANDING_FEATURES_HEADER_1: '探索的过程',
-  LANDING_FEATURES_HEADER_1_P: "如何搭建自己的门户网站，塑造一个品牌展示中心？<br/>曾经，它是系统<strong class='font-bold text-red-500'>繁重</strong>的Wordpress、是操作<strong class='font-bold  text-red-500'>复杂</strong>的Hexo、是<strong class='font-bold text-red-500'>昂贵</strong>且<strong class='font-bold text-red-500'>不稳定</strong>的技术团队;<br/>现在，只要一个Notion笔记就够了",
-  LANDING_FEATURES_HEADER_2: 'Notion+NextJs组合方案',
-  LANDING_FEATURES_HEADER_2_P: '在Notion笔记中管理文章数据，NextJs将其渲染成网页排版，通过Vercel等第三方平台将您的网站发布到全球。',
-  LANDING_FEATURES_CARD_1_TITLE: '简单快速的系统',
-  LANDING_FEATURES_CARD_1_P: '在Notion中写下一篇文章，内容立刻在您的网站首页中呈现给互联网',
-  LANDING_FEATURES_CARD_2_TITLE: '高效传播的媒介',
-  LANDING_FEATURES_CARD_2_P: '优秀的SEO、快速的响应速度，让您的产品和宣传触达到更多的受众',
-  LANDING_FEATURES_CARD_3_TITLE: '人性化的定制工具',
-  LANDING_FEATURES_CARD_3_P: '多款主题供您挑选，可以搭建各种不同风格和作用的网站，更多的主题正在陆续加入中。',
+  LANDING_FEATURES_HEADER_1: '大模型（LLM）时代的革新型知识管理',
+  LANDING_FEATURES_HEADER_1_P: '企业如何在知识加工、提取、检索、生成各环节使用 LLM 助力？Quick Mind 的三个产品借助 RAG 技术的精准洞察力实现了真正的智能化知识管理。',
+  LANDING_FEATURES_HEADER_2: 'Quick Mind 方案的组成和优势',
+  LANDING_FEATURES_HEADER_2_P: '相比较传统方案，Quick Mind 通过三个可以独立运行的产品，来成倍提升生产效率与决策质量',
+  LANDING_FEATURES_CARD_1_TITLE: 'Quick Assistant | 知识助理',
+  LANDING_FEATURES_CARD_1_P: '多轮对话机器人，打造数字分身',
+  LANDING_FEATURES_CARD_2_TITLE: 'Quick Search | 知识搜索',
+  LANDING_FEATURES_CARD_2_P: '全面、精准、快速找到，在理解后生成需要的答案',
+  LANDING_FEATURES_CARD_3_TITLE: 'Quick Analyser | 智能解数',
+  LANDING_FEATURES_CARD_3_P: '智能的数据分析',
 
   // 特性介绍2
   LANDING_FEATURES_BLOCK_HEADER: '解决方案',

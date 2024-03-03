@@ -12,15 +12,15 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Features from './components/Features'
-import FeaturesBlocks from './components/FeaturesBlocks'
-import Testimonials from './components/Testimonials'
+// import FeaturesBlocks from './components/FeaturesBlocks'
+// import Testimonials from './components/Testimonials'
 import Newsletter from './components/Newsletter'
 import { useRouter } from 'next/router'
 import CONFIG from './config'
 import Loading from '@/components/Loading'
 import { isBrowser } from '@/lib/utils'
 import { siteConfig } from '@/lib/config'
-import { Pricing } from './components/Pricing'
+// import { Pricing } from './components/Pricing'
 import { useEffect } from 'react'
 
 /**
@@ -58,10 +58,6 @@ const LayoutIndex = (props) => {
         <>
             <Hero />
             <Features />
-            <FeaturesBlocks />
-            <Testimonials />
-            <Pricing/>
-            <Newsletter />
         </>
   )
 }
