@@ -1,10 +1,10 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: '浏览文档',
-  LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
+  LANDING_HEADER_BUTTON_1_URL: '/docs',
 
   LANDING_HEADER_BUTTON_2_TITLE: '作者博客',
-  LANDING_HEADER_BUTTON_2_URL: 'https://blog.tangly1024.com/',
+  LANDING_HEADER_BUTTON_2_URL: '/',
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Quick Mind',
@@ -12,9 +12,9 @@ const CONFIG = {
   LANDING_HERO_P_2: '开箱即用的 SaaS / 私有化部署',
 
   LANDING_HERO_BUTTON_1_TEXT: '免费体验',
-  LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
+  LANDING_HERO_BUTTON_1_LINK: '/apply',
   LANDING_HERO_BUTTON_2_TEXT: '了解客户案例',
-  LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
+  LANDING_HERO_BUTTON_2_LINK: '/client-story',
   LANDING_HERO_VIDEO_IMAGE: '/images/rag.jpg',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
   LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
@@ -69,19 +69,19 @@ const CONFIG = {
   LANDING_PRICING_1_PRICE: '免费',
   LANDING_PRICING_1_CONTENT: '项目源代码,部署教程,不定时技术答疑',
   LANDING_PRICING_1_BUTTON: '开始体验',
-  LANDING_PRICING_1_URL: 'https://docs.tangly1024.com/about',
+  LANDING_PRICING_1_URL: '/apply',
 
   LANDING_PRICING_2_TITLE: '捐赠版',
   LANDING_PRICING_2_PRICE: '$9.9/月',
   LANDING_PRICING_2_CONTENT: '项目源代码,部署教程,长期技术答疑,代码升级合并,内部社群',
   LANDING_PRICING_2_BUTTON: '立即购买',
-  LANDING_PRICING_2_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/0adb9153-0799-4f51-91aa-1f06391ea4e0',
+  LANDING_PRICING_2_URL: '/buy',
 
   LANDING_PRICING_3_TITLE: '企业版',
   LANDING_PRICING_3_PRICE: '$59/月',
   LANDING_PRICING_3_CONTENT: '项目源代码,部署教程,VIP技术咨询,代码升级合并,内部社群,定制功能开发,SEO优化',
   LANDING_PRICING_3_BUTTON: '立即购买',
-  LANDING_PRICING_3_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
+  LANDING_PRICING_3_URL: '/buy-enterprise',
 
   LANDING_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
