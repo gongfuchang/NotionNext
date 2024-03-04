@@ -5,16 +5,16 @@ import { useRouter } from 'next/router'
 import { useEffect, useState, createContext, useContext, useRef } from 'react'
 import { isBrowser } from '@/lib/utils'
 import Footer from './components/Footer'
-import InfoCard from './components/InfoCard'
-import RevolverMaps from './components/RevolverMaps'
+// import InfoCard from './components/InfoCard'
+// import RevolverMaps from './components/RevolverMaps'
 import TopNavBar from './components/TopNavBar'
 import SearchInput from './components/SearchInput'
 import { useGlobal } from '@/lib/global'
-import Live2D from '@/components/Live2D'
+// import Live2D from '@/components/Live2D'
 import NavPostList from './components/NavPostList'
 import ArticleInfo from './components/ArticleInfo'
-import Catalog from './components/Catalog'
-import Announcement from './components/Announcement'
+// import Catalog from './components/Catalog'
+// import Announcement from './components/Announcement'
 import PageNavDrawer from './components/PageNavDrawer'
 import FloatTocButton from './components/FloatTocButton'
 import { AdSlot } from '@/components/GoogleAdsense'
@@ -113,10 +113,6 @@ const LayoutBase = (props) => {
                                 {children}
                             </Transition>
 
-                            {/* Google广告 */}
-                            <AdSlot type='in-article' />
-                            <WWAds className='w-full' orientation='horizontal'/>
-
                             {/* 回顶按钮 */}
                             <JumpToTopButton />
                         </div>
@@ -133,21 +129,6 @@ const LayoutBase = (props) => {
                       : <div style={{ width: '32rem' }} className={'hidden xl:block dark:border-transparent relative z-10 '}>
                       <div className='py-14 px-6 sticky top-0'>
                           <ArticleInfo post={props?.post ? props?.post : props.notice} />
-
-                          <div className='py-4'>
-                              <Catalog {...props} />
-                              {slotRight}
-                              {router.route === '/' && <>
-                                  <InfoCard {...props} />
-                                  {siteConfig('GITBOOK_WIDGET_REVOLVER_MAPS', null, CONFIG) === 'true' && <RevolverMaps />}
-                                  <Live2D />
-                              </>}
-                              {/* gitbook主题首页只显示公告 */}
-                              <Announcement {...props} />
-                          </div>
-
-                          <AdSlot type='in-article' />
-                          <Live2D />
 
                       </div>
                   </div>}

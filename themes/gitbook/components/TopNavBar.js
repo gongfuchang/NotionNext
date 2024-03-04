@@ -5,7 +5,7 @@ import { MenuBarMobile } from './MenuBarMobile'
 import { useGlobal } from '@/lib/global'
 import CONFIG from '../config'
 import { siteConfig } from '@/lib/config'
-import { MenuItemDrop } from './MenuItemDrop'
+// import { MenuItemDrop } from './MenuItemDrop'
 import DarkModeButton from '@/components/DarkModeButton'
 
 /**
@@ -57,14 +57,10 @@ export default function TopNavBar(props) {
                 {/* 折叠按钮、仅移动端显示 */}
                 <div className='mr-1 flex md:hidden justify-end items-center space-x-4  dark:text-gray-200'>
                     <DarkModeButton className='flex text-md items-center h-full' />
-                    <div onClick={toggleMenuOpen} className='cursor-pointer text-lg hover:scale-110 duration-150'>
-                        {isOpen ? <i className='fas fa-times' /> : <i className="fa-solid fa-ellipsis-vertical"/>}
-                    </div>
                 </div>
 
                 {/* 桌面端顶部菜单 */}
                 <div className='hidden md:flex'>
-                    {links && links?.map((link, index) => <MenuItemDrop key={index} link={link} />)}
                     <DarkModeButton className='text-sm flex items-center h-full' />
                 </div>
             </div>
