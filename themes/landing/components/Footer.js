@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import CONFIG from '../config'
 import Logo from './Logo'
 import { siteConfig } from '@/lib/config'
+import BLOG from '@/blog.config'
 
 /**
  * 页脚
@@ -85,7 +86,7 @@ export default function Footer() {
                         <h6 className="text-gray-800 font-medium mb-2">资源</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="/docs" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">技术文档</a>
+                                <a href={BLOG.DOCS} className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">技术文档</a>
                             </li>
                             <li className="mb-2">
                                 <a href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">客户案例</a>
