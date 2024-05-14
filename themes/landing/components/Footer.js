@@ -89,10 +89,10 @@ export default function Footer() {
                                 <a href={BLOG.DOCS} className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">技术文档</a>
                             </li>
                             <li className="mb-2">
-                                <a href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">客户案例</a>
+                                <a href="/article/custom-stories" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">客户案例</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">合作方</a>
+                                <a href="/article/partners" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">合作方</a>
                             </li>
                         </ul>
                     </div>
@@ -105,13 +105,13 @@ export default function Footer() {
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">主页</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">关于我们</a>
+                                <a href="/article/about" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">关于我们</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司地址</a>
+                                <a href="/article/address" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司地址</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">隐私政策</a>
+                                <a href="/article/privacy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">隐私政策</a>
                             </li>
                         </ul>
                     </div>
