@@ -14,9 +14,9 @@ const CONFIG = {
   LANDING_HERO_P_2: '开箱即用的 SaaS / 私有化部署',
 
   LANDING_HERO_BUTTON_1_TEXT: '免费体验',
-  LANDING_HERO_BUTTON_1_LINK: '/apply',
+  LANDING_HERO_BUTTON_1_LINK: '/article/apply',
   LANDING_HERO_BUTTON_2_TEXT: '了解客户案例',
-  LANDING_HERO_BUTTON_2_LINK: '/client-story',
+  LANDING_HERO_BUTTON_2_LINK: '/article/custom-stories',
   LANDING_HERO_VIDEO_IMAGE: '/images/rag.jpg',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
   LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
