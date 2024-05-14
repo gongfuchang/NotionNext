@@ -46,7 +46,7 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <div className="text-sm text-gray-600 mb-2">
-                            <Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">服务条款</Link> · <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">隐私政策</Link>
+                            <Link href="/article/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">服务条款</Link> · <Link href="/article/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">隐私政策</Link>
                         </div>
                         <div className="text-sm text-gray-600">
                         &copy; Dantech inc., 2023-2024
@@ -111,7 +111,7 @@ export default function Footer() {
                                 <a href="/article/address" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">公司地址</a>
                             </li>
                             <li className="mb-2">
-                                <a href="/article/privacy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">隐私政策</a>
+                                <a href="/article/privacy-policy" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">隐私政策</a>
                             </li>
                         </ul>
                     </div>
