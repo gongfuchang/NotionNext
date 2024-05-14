@@ -102,7 +102,7 @@ export default function Footer() {
                         <h6 className="text-gray-800 font-medium mb-2">企业</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">主页</a>
+                                <a href="/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">主页</a>
                             </li>
                             <li className="mb-2">
                                 <a href="/article/about" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">关于我们</a>
