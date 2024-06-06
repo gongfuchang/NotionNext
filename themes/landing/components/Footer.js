@@ -51,6 +51,9 @@ export default function Footer() {
                         <div className="text-sm text-gray-600">
                         &copy; Dantech inc., 2023-2024
                         </div>
+                        <div className="text-sm text-link">
+                          <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2024083405号-1</a>
+                        </div>
                     </div>
 
                     {/* 2nd block */}
